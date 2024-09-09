@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Client Details</title>
+</head>
+<body>
+<h3>Client Details</h3>
+<h4>Enter the details of all incoming Clients</h4>
+<form class="form-container">
+    <label>Client Name:</label>
+    <input type="text" name="ClientName" id="ClientName"> <br>
+
+    <label>Company:</label>
+    <input type="text" name="Company" id="Company"> <br>
+
+    <label>Title:</label>
+    <input type="text" name="title" id="title"> <br>
+
+    <label>Department:</label>
+    <select name="Department"> <br>
+        <option value="Medical">Medical</option>
+        <option value="Engineer">Engineer</option>
+        <option value="Nurse">Nurse</option>
+        <option value="Driver">Driver</option>
+    </select> <br>
+
+    <label>Contact Method:</label>
+    <div class="radio-group">
+       <input type="radio" name="Contact Method" id="Email" value="Email">
+        <label for="Email">Email</label>
+
+        <input type="radio" name="Contact Method" id="Phone number" value="Phone Number">
+        <label for="Phone number">Phone number</label> <br>
+
+        <label> Company Address</label>
+        <textarea name="Company Addres"  rows="1" placeholder="Enter the Address"></textarea> <br>
+        <textarea name="Company Address"   rows="1" placeholder="Address Line 2"></textarea> <br>
+        <textarea name="Company Address"   rows="1" placeholder="City"></textarea>
+
+    </div>
+</form>
+
+</body>
+</html>

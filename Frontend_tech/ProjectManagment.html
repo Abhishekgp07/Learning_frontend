@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project Management</title>
+</head>
+<body>
+<div class="form-container">
+    <h2>Project Management</h2>
+    <form>
+
+        <label for="projectName">Project Name:</label>
+        <input type="text" id="projectName" name="projectName"> <br>
+
+
+        <label>Assigned to:</label>
+        <select name="assignedTo">
+            <option value="Abhishek G P">Abhishek GP</option>
+            <option value="Karan">Karan</option>
+            <option value="Manoj">Manoj</option>
+        </select> <br>
+
+
+        <label for="startdate">Start Date:</label>
+        <input type="date" name="startdate" id="startdate" placeholder="dd-mm-yyyy"> <br>
+
+
+        <label for="enddate">End Date:</label>
+        <input type="date" name="endDate" id="enddate" placeholder="dd-mm-yyyy"> <br>
+
+
+        <label>Priority:</label>
+        <div class="radio-group">
+            <input type="radio" name="Priority" id="high" value="high">
+            <label for="high">High</label>
+
+            <input type="radio" name="Priority" id="average" value="average">
+            <label for="average">Average</label>
+
+            <input type="radio" name="Priority" id="low" value="low">
+            <label for="low">Low</label>
+        </div>
+
+
+        <label for="description">Description:</label>
+        <textarea name="description" id="description" ></textarea> <br>
+
+
+        <div class="button-group">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
